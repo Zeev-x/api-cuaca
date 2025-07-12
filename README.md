@@ -2,10 +2,14 @@
 Api cuaca ini di ambil langsung dari [BMKG](https://bmkg.go.id/)
 
 ## Cara menggunakan
+```cpp
+npm install api-cuaca
 ```
+
+```cpp
 const getWeatherData = require('api-cuaca');
 
-kode_lokasi = '35.08.03.2007' //Gunakan kode lokasimu
+kode_lokasi = '00.00.00.0000' //Gunakan kode lokasimu
 
 getWeatherData(kode_lokasi)
   .then(result => {
