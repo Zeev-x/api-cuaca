@@ -1,0 +1,25 @@
+{
+  "name": "api-cuaca",
+  "version": "1.0.1",
+  "description": "Api cuaca bmkg",
+  "keywords": [],
+  "homepage": "https://github.com/Zeev-x/api-cuaca#readme",
+  "bugs": {
+    "url": "https://github.com/Zeev-x/api-cuaca/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zeev-x/api-cuaca.git"
+  },
+  "license": "ISC",
+  "author": "Zeev-x",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "axios": "^1.10.0"
+  },
+  "devDependencies": {}
+}
